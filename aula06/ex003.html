@@ -20,10 +20,15 @@
     <h1>Olá, Mundo!</h1>
     <p>Já me livrei da maldição !!</p>
     <script>
-        alert('Minha primeira mensagem!')
-        confirm('Está gostando de JS?')
-        prompt('Qual é seu nome?')
-        //comentário JS
+        var n1 = Number(prompt('Digite um número'))
+        var n2 = Number(prompt('Digte outro número'))
+        var s = n1 + n2
+        /*
+        usando concatenação
+            alert('A soma desses dois números é ' + s)
+        */
+        //usando place holder 
+        alert(`a soma de ${n1} com ${n2} é igual a ${s}`)
     </script>
 </body>
 </html>
